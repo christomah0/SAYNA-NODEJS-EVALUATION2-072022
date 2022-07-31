@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container {
+   width: 100%;
+   height:100%;
+   background: #f5f5f7;
+}
+
+.menu ul{
+	display: inline-flex;
+	margin: 80px;
+}
+
+.menu ul li{
+	list-style: none;
+	margin: 0 30px;
+	color: #0e0101;
+	cursor: pointer;
+}
+
+.logo img{
+	width: 200px;
+	margin-top: -7px;
+	margin-right: 50px;
+}
+
+.active {
+	color: #19dafa !important;
+}
+
+.signup-btn {
+	top: 40px;
+	right: 80px;
+	position: absolute;
+	text-decoration: none;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient( #42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+.signup-btn span {
+	display: block;
+	padding: 8px 22px;
+	color: #ffffff;
+}
+
+.banner {
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: rgb(19, 18, 18); 
+}
+
+.app-text {
+	width: 50%;
+	float: left;
+}
+
+.app-text h1 {
+	font-size: 40px;
+	width: 500px;
+	position: relative;
+	margin-left: 40px;
+
+}
+
+.app-text p {
+	width: 650%;
+	font-size: 20px;
+	margin: 30px 0 30px 40px;
+	line-height: 30px;
+	color: #0c0c0c;
+}
+
+.app-picture {
+	width: 50%;
+	float: right;
+}
+
+.app-picture img{
+	width: 100%;
+}
+
+
+.app-picture-uxui img{
+	width: 35%;
+}
+
+.app-picture-index img{
+	width: 40%;
+} 
+
+.app-picture-frontend img{
+    width: 40%;	
+}
+
+.app-picture-marketing img{
+	width: 30%;
+}
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .opinion {
+	list-style: none;
+	background-color: dodgerblue;
+	color: #ffffff;
+	border-radius: 5px;
+	margin: 0.5rem;
+	padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+	box-shadow: 0px 1px 1px #000000;
+	text-align: start;
+  }
+
+  a, a:visited {
+	color: #000000;
+	text-decoration: none;
+  }
+
+  body {
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .flip-box {
+	background-color: transparent;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #f1f1f1;
+	perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+	transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+	background-color: #bbb;
+	color: black;
+  }
+  
+  .flip-box-back {
+	background-color: dodgerblue;
+	color: white;
+	transform: rotateY(180deg);
+  }
+
+  .myname {
+	font-size: 14px;
+	font-style: italic;
+  }
+
+  .myop {
+	font-weight: bold;
+  }

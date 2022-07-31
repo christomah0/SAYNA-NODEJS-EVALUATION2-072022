@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<htlm lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<title> D- CLIC  </title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class ="container"> 
+			<div class ="menu"> 
+	            <ul>
+	            	<li class="logo"><a href="/"><img src="./image/sayna.jpg"></a></li>
+	            	<li><a href="/">Home</a></li>
+	            	<li><a href="/backend">BackEnd</a></li>
+	            	<li><a href="/frontend">FrontEnd</a></li>
+                    <li><a href="/marketingDigital">Marketing Digital</a></li>
+					<li><a href="/uxui">UX/UI</a></li>
+	            	<li><a href="/contact">Contact</a></li>
+	            	<li><a href = "/signup" class="signup-btn"><span> Sign Up </span></a></li>
+	            </ul>
+			</div>
+
+			<div class = "banner" > 
+				<div class="app-text"> 
+					<h1> D-CLIC <br> Venez nous voir </h1>
+					<p>Prenez contact avec nous. </p>
+					<div class="play-btn"> 
+						<div class="play-btn-inner"> 		
+						</div>
+					</div>
+				</div>
+
+			    <div class="app-picture-contact" >
+					<img src="./image/image_contact.jpg">
+				</div> 
+
+				<h2>Notez la formation</h2>
+				<div>
+				  	<form action="/api/form" id="myForm" method="post">
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your name..">
+					
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					
+						<label for="avis">Votre avis</label>
+						<input type="text" id="avis" name="avis" placeholder="donnez votre avis sur la formation..">
+					
+						<label for="Note">Note</label>
+						<input type="number" id="Note" name="note" min="1" max="5" placeholder="votre note ..">
+					
+						<label for="formation">Formation</label>
+						<select id="formation" name="formation">
+							<option value="Frontend">Frontend</option>
+							<option value="Backend">Backend</option>
+							<option value="Marketing-Digital">Marketing</option>
+							<option value="UX-UI">UX-UI</option>
+						</select>
+					
+						<input type="submit" value="Submit">
+				  	</form>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="./ajax.js"></script>
+	</body>
+</html>

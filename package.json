@@ -1,0 +1,30 @@
+{
+  "name": "sayna-nodejs-evaluation2-072022",
+  "version": "1.0.0",
+  "description": "PROJET Fil rouge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christomah0/SAYNA-NODEJS-EVALUATION2-072022.git"
+  },
+  "keywords": [
+    "Just",
+    "a",
+    "project"
+  ],
+  "author": "christomah0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christomah0/SAYNA-NODEJS-EVALUATION2-072022/issues"
+  },
+  "homepage": "https://github.com/christomah0/SAYNA-NODEJS-EVALUATION2-072022#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "cors": "^2.8.5",
+    "joi": "^17.6.0",
+    "mysql": "^2.18.1"
+  }
+}
